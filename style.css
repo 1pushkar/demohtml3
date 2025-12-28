@@ -3,7 +3,7 @@ body{
   flex-direction:column;
   background-image: url("2.jpg");
   background-size: cover;      /* fill screen */
- 
+  background-repeat: no-repeat;/* don't tile */
   background-position: center; /* center image */
 
 
@@ -19,7 +19,7 @@ label{
   width:100px;
   padding:5px;
   font-weight:bold;
-	color:white;
+  
 }
 table,th,td{
   border:1px solid black;
@@ -64,6 +64,12 @@ input{
   padding:5px;
   margin :2px;
 }
-
-
-
+h2{
+	
+	background-color:LightBlue;
+	width:200px;
+	border:1px solid black;
+	border-radius:10px;
+	padding:10px;
+	box-shadow:5px 5px blue;
+}
