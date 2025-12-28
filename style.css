@@ -19,7 +19,7 @@ label{
   width:100px;
   padding:5px;
   font-weight:bold;
-	font-color:white;
+	color:white;
 }
 table,th,td{
   border:1px solid black;
@@ -64,5 +64,6 @@ input{
   padding:5px;
   margin :2px;
 }
+
 
 
