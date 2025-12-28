@@ -1,6 +1,7 @@
 body{
   display:flex;
   flex-direction:column;
+  
 }
 h1{
   border:1px solid black;
@@ -52,4 +53,5 @@ input:focus{
 input{
   padding:5px;
   margin :2px;
+
 }
