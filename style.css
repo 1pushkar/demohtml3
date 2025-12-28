@@ -1,7 +1,12 @@
 body{
   display:flex;
   flex-direction:column;
-  
+  background-image: url("2.jpg");
+  background-size: cover;      /* fill screen */
+  background-repeat: no-repeat;/* don't tile */
+  background-position: center; /* center image */
+
+
 }
 h1{
   border:1px solid black;
@@ -27,10 +32,14 @@ th{
 tr:nth-child(even){
   background-color:LightGreen;
 }
+tr:nth-child(odd){
+  background-color:white;
+}
 tr:hover{
   background-color:Green;
 }
 form{
+	background-color:LightGrey;
   align-self:center;
   border:1px solid black;
   border-radius:10px;
@@ -53,5 +62,4 @@ input:focus{
 input{
   padding:5px;
   margin :2px;
-
 }
