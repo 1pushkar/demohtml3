@@ -3,7 +3,7 @@ body{
   flex-direction:column;
   background-image: url("2.jpg");
   background-size: cover;      /* fill screen */
-  background-repeat: no-repeat;/* don't tile */
+ 
   background-position: center; /* center image */
 
 
@@ -63,3 +63,4 @@ input{
   padding:5px;
   margin :2px;
 }
+
