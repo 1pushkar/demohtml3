@@ -1,0 +1,55 @@
+body{
+  display:flex;
+  flex-direction:column;
+}
+h1{
+  border:1px solid black;
+  padding:10px;
+  background-color: Grey;
+  text-align:center;
+}
+label{
+  display:inline-block;
+  width:100px;
+  padding:5px;
+  font-weight:bold;
+}
+table,th,td{
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:10px;
+  }
+th{
+  background-color:#f2f2f2;
+}
+
+tr:nth-child(even){
+  background-color:LightGreen;
+}
+tr:hover{
+  background-color:Green;
+}
+form{
+  align-self:center;
+  border:1px solid black;
+  border-radius:10px;
+  box-shadow:5px 5px green;
+  padding:10px;
+}
+button:hover{
+  background-color:green;
+  cursor:pointer;
+}
+button{
+  padding:5px;
+  margin-left:100px;
+  margin-top:5px;
+  background-color:LightGreen;
+}
+input:focus{
+  background-color:LightBlue;
+}
+input{
+  padding:5px;
+  margin :2px;
+}
